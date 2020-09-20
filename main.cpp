@@ -10,7 +10,7 @@ static std::string allText{};//source string
 
 bool ReadFile() {
 	std::string text{}, lastLine{};
-	std::ifstream hwFile("Source.txt");
+	std::ifstream hwFile("Source.txt");//Dosya yolunu değiştirebilirsiniz.(You can change your .txt filename)
 	int plus = 0;
 	int idx = 0;
 	if (hwFile.is_open())
