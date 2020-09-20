@@ -5,8 +5,6 @@
 #define columb_Number 4
 
 static std::vector<std::string> arStr;
-static std::string allText{};//source string
-
 
 bool ReadFile() {
 	std::string text{}, lastLine{};
