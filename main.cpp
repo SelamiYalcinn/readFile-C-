@@ -2,7 +2,7 @@
 #include<string>
 #include<fstream>
 #include<vector>
-#define columb_Number 4
+#define columb_Number 4//Input your columb Number(Kendi dosyanızdaki kolon sayısını giriniz.)
 
 static std::vector<std::string> arStr;
 
